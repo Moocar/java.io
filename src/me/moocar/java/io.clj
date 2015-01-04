@@ -2,13 +2,10 @@
   (:require [clojure.java.io :as jio])
   (:import (java.io File)
            (java.nio.charset Charset)
-           (java.nio.file Files Path StandardOpenOption LinkOption Paths)))
+           (java.nio.file Files Path StandardOpenOption Paths)))
 
 (defn- ^String encoding [opts]
   (or (:encoding opts) "UTF-8"))
-
-(defn- ^Boolean append? [opts]
-  (boolean (:append opts)))
 
 (defn- ^Charset charset [opts]
   (Charset/forName (encoding opts)))
