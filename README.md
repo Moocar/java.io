@@ -4,7 +4,11 @@ JK7 java.nio.file.Path compatibility for clojure.java.io
 
 ## Usage
 
-[java.nio.file.Path](http://docs.oracle.com/javase/7/docs/api/java/nio/file/Path.html) is a new abstraction for File paths that was introduced in JDK7. This library provides compativility between clojure.java.io and Paths.
+[java.nio.file.Path](http://docs.oracle.com/javase/7/docs/api/java/nio/file/Path.html)
+is an abstraction for File paths that was introduced in JDK7. This
+library provides compativility between
+[clojure.java.io](https://clojure.github.io/clojure/clojure.java.io-api.html)
+and Paths.
 
 Example usage below
 
