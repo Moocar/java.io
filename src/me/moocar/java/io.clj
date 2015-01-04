@@ -66,5 +66,5 @@
 (defn ^Path path
   ([arg]
    (as-path arg))
-  ([parent & child]
-   (Paths/get parent (into-array String child))))
+  ([parent & children]
+   (Paths/get parent (into-array String children))))
