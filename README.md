@@ -41,7 +41,7 @@ A convenience function is also provided to create paths
 
 ## License
 
-Copyright © 2015 FIXME
+Copyright © 2015 Anthony Marcar
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
