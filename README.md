@@ -2,6 +2,14 @@
 
 JK7 java.nio.file.Path compatibility for clojure.java.io
 
+## Dependency information
+
+This library is hosted on [Clojars](https://clojars.org/) Releases. [Leiningen](https://github.com/technomancy/leiningen/) dependency:
+
+```clojure
+[me.moocar/java.io "0.1.0"]
+```
+
 ## Usage
 
 [java.nio.file.Path](http://docs.oracle.com/javase/7/docs/api/java/nio/file/Path.html)
